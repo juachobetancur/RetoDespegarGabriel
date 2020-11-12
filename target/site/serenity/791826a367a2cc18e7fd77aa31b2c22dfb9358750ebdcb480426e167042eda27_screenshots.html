@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b8c179458284f92bedd5b1d5d245159b9999a001af88b04aff6564dc63b403ac.html">Consultar Informacion De Vuelo</a></span>
+                > <span class="truncate-60"><a
+                    href="791826a367a2cc18e7fd77aa31b2c22dfb9358750ebdcb480426e167042eda27.html">Consultar informacion de un vuelo, costo y fecha de partida </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-11-2020 17:41</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Consultar Informacion De Vuelo</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario, quiero consultar la informaci�n de un vuelo, costo y fecha de partida
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8da83dfc5b26ecd9c21a50df5dd1fd2d4a58aebb1c84fa97963e2487956d360a.html">Consultarinformaci�Ndevuelo
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Consultar informacion de un vuelo, costo y fecha de partida
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="ab50317f91f6a8142e56be5e529e99691f795a8a2331d8a1de5410c655da7a88.png" title=" Given que estoy en el portal de Despegar" width="1366"/>
+                <img src="ab50317f91f6a8142e56be5e529e99691f795a8a2331d8a1de5410c655da7a88.png" title=" Abrir pagina despegar" width="1366"/>
+                <img src="ab50317f91f6a8142e56be5e529e99691f795a8a2331d8a1de5410c655da7a88.png" title=" Given que estoy en el portal de Despegar (completed)" width="1366"/>
+                <img src="35fe2d7bb61a53415231c509bfbf0abd572f06620895558504fb0c2f82da2b14.png" title=" When consulto la informacion del vuelo a comprar
+| origen | destino | salida | regreso | pasajeros |
+| Medellin | Cartagena | 2020-11-30 | 2020-12-08 | 2 |" width="1366"/>
+                <img src="35fe2d7bb61a53415231c509bfbf0abd572f06620895558504fb0c2f82da2b14.png" title=" Ingresar lugar de origen: Medellin" width="1366"/>
+                <img src="d0c36705cabcabbc46d6e6bf6c4b8e7139fca8346cb77f861bfd224ef7dbf3cf.png" title=" Ingresar lugar de origen: Medellin (completed)" width="1366"/>
+                <img src="d0c36705cabcabbc46d6e6bf6c4b8e7139fca8346cb77f861bfd224ef7dbf3cf.png" title=" Ingresar lugar de destino: Cartagena" width="1366"/>
+                <img src="96e258e1e27436ca7562274bfcffd12547dcca7a856f5ec6f92ad32d27a81ef4.png" title=" Ingresar lugar de destino: Cartagena (completed)" width="1366"/>
+                <img src="96e258e1e27436ca7562274bfcffd12547dcca7a856f5ec6f92ad32d27a81ef4.png" title=" Ingresar fecha de ida" width="1366"/>
+                <img src="96f13d66b57f77b8fa184c10147cb64006804b2568da4a1240e2de12d2270a6e.png" title=" Ingresar fecha de ida (completed)" width="1366"/>
+                <img src="96f13d66b57f77b8fa184c10147cb64006804b2568da4a1240e2de12d2270a6e.png" title=" Ingresar fecha de regreso" width="1366"/>
+                <img src="2c57b93df1518fb0144ccab772a71abdc0643560c986f87631031fa8722c1c1f.png" title=" Ingresar fecha de regreso (completed)" width="1366"/>
+                <img src="2c57b93df1518fb0144ccab772a71abdc0643560c986f87631031fa8722c1c1f.png" title=" Seleccionar cantidad pasajeros" width="1366"/>
+                <img src="c34e9df97b1c9bb74364e81f46f071387c13f110421e8471162a1b549ce328ee.png" title=" Seleccionar cantidad pasajeros (completed)" width="1366"/>
+                <img src="c34e9df97b1c9bb74364e81f46f071387c13f110421e8471162a1b549ce328ee.png" title=" Clic en boton buscar" width="1366"/>
+                <img src="6fbb3a3d18a7114e9c1817d8761e9b7385dd6902f90e1854f62c8027d3f81fc5.png" title=" Clic en boton buscar (completed)" width="1366"/>
+                <img src="6fbb3a3d18a7114e9c1817d8761e9b7385dd6902f90e1854f62c8027d3f81fc5.png" title=" Obtener datos de ida" width="1366"/>
+                <img src="83154aeec86791e435780d161cf89d5717ae5b141564de19b5a355ab72fe7cf7.png" title=" Obtener datos de ida (completed)" width="1366"/>
+                <img src="83154aeec86791e435780d161cf89d5717ae5b141564de19b5a355ab72fe7cf7.png" title=" Obtener datos de regreso" width="1366"/>
+                <img src="83154aeec86791e435780d161cf89d5717ae5b141564de19b5a355ab72fe7cf7.png" title=" Obtener datos de regreso (completed)" width="1366"/>
+                <img src="83154aeec86791e435780d161cf89d5717ae5b141564de19b5a355ab72fe7cf7.png" title=" Obtener precio del vuelo" width="1366"/>
+                <img src="83154aeec86791e435780d161cf89d5717ae5b141564de19b5a355ab72fe7cf7.png" title=" Obtener precio del vuelo (completed)" width="1366"/>
+                <img src="83154aeec86791e435780d161cf89d5717ae5b141564de19b5a355ab72fe7cf7.png" title=" Clic en boton seleccionar" width="1366"/>
+                <img src="fde1bc143593eb777982847cce52b53a7a95b1fee55039accbac6f245bf0a4d3.png" title=" When consulto la informacion del vuelo a comprar
+| origen | destino | salida | regreso | pasajeros |
+| Medellin | Cartagena | 2020-11-30 | 2020-12-08 | 2 |" width="1366"/>
+                <img src="fde1bc143593eb777982847cce52b53a7a95b1fee55039accbac6f245bf0a4d3.png" title=" Clic en boton seleccionar (completed)" width="1366"/>
+                <img src="9bd6a7f6c8df7f9a84f99b86ca9557fb365f9cc66a8c5e95adb33024414b1642.png" title=" And Registro la informacion de los personas a viajar
+| banco | nombreFactura | apellidoFactura | documentoFactura | estado | ciudad | direccion | nombreSegundoPasejero | apellidoSegundoPasejero | documento | mail | area | celular |
+| Bancolombia | John | Suarez | 43556432 | Antioquia | Medellin | Cr 8 20-20 | Pedro | Suarez | 71321445 | papitafrita@gmail.com | 57 | 313000909 |" width="1366"/>
+                <img src="9bd6a7f6c8df7f9a84f99b86ca9557fb365f9cc66a8c5e95adb33024414b1642.png" title=" Seleccionar metodo de pago y banco: Bancolombia" width="1366"/>
+                <img src="9bd6a7f6c8df7f9a84f99b86ca9557fb365f9cc66a8c5e95adb33024414b1642.png" title=" Ingresar nombre factura: John" width="1366"/>
+                <img src="c42cf81ea97aba7831013279c4b29f0f44b747e78e307b928c2f228710c9533c.png" title=" Ingresar nombre factura: John (completed)" width="1366"/>
+                <img src="c42cf81ea97aba7831013279c4b29f0f44b747e78e307b928c2f228710c9533c.png" title=" Ingresar apellido factura: Suarez" width="1366"/>
+                <img src="5d9510bc867bdc10145995276bf094708875d7f98cd565acd355cb7ceccb1ee9.png" title=" Ingresar apellido factura: Suarez (completed)" width="1366"/>
+                <img src="5d9510bc867bdc10145995276bf094708875d7f98cd565acd355cb7ceccb1ee9.png" title=" Ingresar cedula factura: 43556432" width="1366"/>
+                <img src="1f8f353ffd68493e643de0896003267919d3465593f44021326b3f6c28cf31d3.png" title=" Ingresar cedula factura: 43556432 (completed)" width="1366"/>
+                <img src="1f8f353ffd68493e643de0896003267919d3465593f44021326b3f6c28cf31d3.png" title=" Ingresar estado: Antioquia" width="1366"/>
+                <img src="30e48b5ce6ef79379b23cc3ba482bdafca0159b5639be213466c88a905d821e9.png" title=" Ingresar estado: Antioquia (completed)" width="1366"/>
+                <img src="30e48b5ce6ef79379b23cc3ba482bdafca0159b5639be213466c88a905d821e9.png" title=" Ingresar ciudad: Medellin" width="1366"/>
+                <img src="fd28f86096885dca0cb5d0d26afb26200346f9102aef95e3ec8ee789c7eebde4.png" title=" Ingresar ciudad: Medellin (completed)" width="1366"/>
+                <img src="fd28f86096885dca0cb5d0d26afb26200346f9102aef95e3ec8ee789c7eebde4.png" title=" Ingresar direccion: Cr 8 20-20" width="1366"/>
+                <img src="c227178634cf2d9819217c38617e4fa5e0c975e6e8ddf2076c82ada562008319.png" title=" Ingresar direccion: Cr 8 20-20 (completed)" width="1366"/>
+                <img src="c227178634cf2d9819217c38617e4fa5e0c975e6e8ddf2076c82ada562008319.png" title=" Ingresar nombre primer pasajero: John" width="1366"/>
+                <img src="ec350c6e56306d837ec56194ca5464de5c8814a4656de3385f4cf3ec8e4cd058.png" title=" Ingresar nombre primer pasajero: John (completed)" width="1366"/>
+                <img src="ec350c6e56306d837ec56194ca5464de5c8814a4656de3385f4cf3ec8e4cd058.png" title=" Ingresar apellido primer pasajero: Suarez" width="1366"/>
+                <img src="38816ef4936612ee3a50efd1769eaea438a53ab91e285fbe491db32367ffbaf8.png" title=" Ingresar apellido primer pasajero: Suarez (completed)" width="1366"/>
+                <img src="38816ef4936612ee3a50efd1769eaea438a53ab91e285fbe491db32367ffbaf8.png" title=" Ingresar cedula primer pasajero: 43556432" width="1366"/>
+                <img src="90c5593ad82721474159ecdfe678953985b7b744694a88b1811adc8175f65cb1.png" title=" Ingresar cedula primer pasajero: 43556432 (completed)" width="1366"/>
+                <img src="90c5593ad82721474159ecdfe678953985b7b744694a88b1811adc8175f65cb1.png" title=" Ingresar nombre segundo pasajero: Pedro" width="1366"/>
+                <img src="70ae6a3a3e984b57fc2c4324307eef3eec37a31bd503aaf3416e76f8f6383076.png" title=" Ingresar nombre segundo pasajero: Pedro (completed)" width="1366"/>
+                <img src="70ae6a3a3e984b57fc2c4324307eef3eec37a31bd503aaf3416e76f8f6383076.png" title=" Ingresar apellido segundo pasajero: Suarez" width="1366"/>
+                <img src="60527577a8ecfd9d4cec6b5fc1fe2cb0d43072bc0b333a10cc1bc353ca9d27e4.png" title=" Ingresar apellido segundo pasajero: Suarez (completed)" width="1366"/>
+                <img src="60527577a8ecfd9d4cec6b5fc1fe2cb0d43072bc0b333a10cc1bc353ca9d27e4.png" title=" Ingresar cedula segundo pasajero: 71321445" width="1366"/>
+                <img src="012da63c3fba142f38451c21ecb03e552ebf1e6a866726878127e57156b718b9.png" title=" Ingresar cedula segundo pasajero: 71321445 (completed)" width="1366"/>
+                <img src="012da63c3fba142f38451c21ecb03e552ebf1e6a866726878127e57156b718b9.png" title=" Ingresar mail: papitafrita@gmail.com" width="1366"/>
+                <img src="98eb17b35dc7d7b474ecae21616ca8e6670a5a14077de8d66b11a1b045158886.png" title=" Ingresar mail: papitafrita@gmail.com (completed)" width="1366"/>
+                <img src="c7194043e059e607cf98fc83be3db8a02946ae48e783739b7653191522a30f3e.png" title=" And Registro la informacion de los personas a viajar
+| banco | nombreFactura | apellidoFactura | documentoFactura | estado | ciudad | direccion | nombreSegundoPasejero | apellidoSegundoPasejero | documento | mail | area | celular |
+| Bancolombia | John | Suarez | 43556432 | Antioquia | Medellin | Cr 8 20-20 | Pedro | Suarez | 71321445 | papitafrita@gmail.com | 57 | 313000909 | (completed)" width="1366"/>
+                <img src="80d3386fbc25c0dada5d040f837c9312b73a03027f1c0fc46dd81fa3260eb0ee.png" title=" Then valido que el sistema informe Instrucciones para realizar el pago: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
